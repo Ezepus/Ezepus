@@ -1,0 +1,88 @@
+{
+  "docs": [
+    {
+      "id": 241071630,
+      "doc_id": "bloy0vgxxn42u0iw",
+      "updated": 1761124498000,
+      "properties": {
+        "title": "Test",
+        "urlname": "bloy0vgxxn42u0iw",
+        "date": "2025-10-19 02:11:58",
+        "updated": "2025-10-22 17:14:58",
+        "description": "我是测试"
+      },
+      "catalog": [],
+      "realName": "Test",
+      "relativePath": "\\Test.md",
+      "docPath": "docs\\notes\\articles"
+    },
+    {
+      "id": 244789017,
+      "doc_id": "vil5xpzf40xvlawg",
+      "updated": 1763134026000,
+      "properties": {
+        "title": "BBB",
+        "urlname": "vil5xpzf40xvlawg",
+        "date": "2025-11-14 23:26:57",
+        "updated": "2025-11-14 23:27:06",
+        "description": "Hello world!"
+      },
+      "catalog": [
+        {
+          "title": "AAA",
+          "doc_id": "vil5xpzf40xvlawg"
+        }
+      ],
+      "realName": "BBB",
+      "relativePath": "\\AAA\\BBB.md",
+      "docPath": "docs\\notes\\articles\\AAA"
+    }
+  ],
+  "catalog": [
+    {
+      "type": "DOC",
+      "title": "Test",
+      "uuid": "WlQ7OIPZNitLXUQ8",
+      "url": "bloy0vgxxn42u0iw",
+      "prev_uuid": "",
+      "sibling_uuid": "CcduJsgAx6HK3jZb",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 241071630,
+      "level": 0,
+      "id": 241071630,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
+      "title": "AAA",
+      "uuid": "CcduJsgAx6HK3jZb",
+      "url": "",
+      "prev_uuid": "WlQ7OIPZNitLXUQ8",
+      "sibling_uuid": "",
+      "child_uuid": "k-alIqW2ZEzpbXRu",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "BBB",
+      "uuid": "k-alIqW2ZEzpbXRu",
+      "url": "vil5xpzf40xvlawg",
+      "prev_uuid": "CcduJsgAx6HK3jZb",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "CcduJsgAx6HK3jZb",
+      "doc_id": 244789017,
+      "level": 1,
+      "id": 244789017,
+      "open_window": 1,
+      "visible": 1
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "my-anzenbokusu",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Anzenbokusu",
+  "author": "Ezepus <2076002577@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "npx vp-update",
+    "elog:init": "elog init",
+    "elog:sync": "elog sync -e .elog.env --config elog.config.js",
+    "elog:clean": "elog clean"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "http-server": "^14.1.1",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.22",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-plume": "1.0.0-rc.177"
+  },
+  "engines": {
+    "node": "^20.6.0 || >=22.0.0"
+  },
+  "dependencies": {
+    "@elog/cli": "^0.14.7"
+  }
+}
