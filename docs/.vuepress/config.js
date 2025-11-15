@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/EzepusBlog/',
+  base: '/Ezepus/',
   lang: 'zh-CN',
   title: 'My Anzenbokusu',
   description: 'Anzenbokusu',
